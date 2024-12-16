@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repaso</title>
     <script type="module" src="js/js.js"></script>
+    <script src="js/server_ops.js" type="module"></script>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
 </head>
 <body>
     <h1>Repaso DOM y fetch</h1>
-
-    <form>
-        <label for="user_name">Nombre de usuario</label>
-        <input type="text" id="user_name">
-        <label></label>
-        <input type="text"><input type="text">
-    </form>
+    <main>
+        <form id="login">
+            <label for="nameUser">Nombre de usuario</label>
+            <input type="text" name="nameUser" id="nameUser">
+            <label for="pwdUser">Contraseña</label>
+            <input type="password" name="pwdUser" id="pwdUser">
+            <button id="dataUser">Enviar</button>
+        </form>
+    </main>
 </body>
 </html>

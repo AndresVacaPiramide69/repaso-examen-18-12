@@ -1,4 +1,4 @@
-export const getPosts = async (url, method = 'GET', headers = {}) => {
+export const getUsers = async (url, method = 'GET') => {
 	return await fetch(url, options(method))
 		.then(res => res.json())
 		.catch(err => console.error(err))
